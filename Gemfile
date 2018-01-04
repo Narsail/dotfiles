@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'byebug'
+gem 'fastlane'
+gem 'neovim'
+gem 'nokogiri'
+gem 'rails'
+gem 'rspec'
+gem 'synx'
+gem 'xcpretty'

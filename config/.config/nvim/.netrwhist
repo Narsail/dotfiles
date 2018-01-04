@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/max/.dotfiles/install'
+let g:netrw_dirhist_2='/Users/kramer_max/.dotfiles/install'
+let g:netrw_dirhist_3='/Users/kramer_max/projects/go/src/github.com/hey-car/vin-extraction-worker/.git'

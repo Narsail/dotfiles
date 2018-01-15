@@ -7,7 +7,8 @@ alias dt="cd ~/Desktop"
 alias dot="cd ~/.dotfiles"
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
-
+alias cp='cp -v'
+alias mv='mv -v'
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 

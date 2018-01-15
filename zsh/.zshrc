@@ -38,7 +38,7 @@ if ! zgen saved; then
   zgen save
 fi
 
-[ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME.jabba/jabba.sh"
+[ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"

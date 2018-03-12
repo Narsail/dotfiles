@@ -11,7 +11,7 @@ alias cp='cp -v'
 alias mv='mv -v'
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
+alias av="aws-vault exec falcon"
 # Show how much RAM application uses.
 # $ ram safari
 # # => safari uses 154.69 MBs of RAM.

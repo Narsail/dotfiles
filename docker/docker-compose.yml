@@ -7,4 +7,4 @@ db:
   environment:
     - POSTGRES_PASSWORD=password
   volumes:
-    - postgresql-volume:/var/lib/docker/db/data
+    - pgdata:/var/lib/postgresql/data

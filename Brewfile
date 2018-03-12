@@ -80,6 +80,11 @@ cask 'quicklook-json'
 cask 'suspicious-package'
 cask 'webpquicklook'
 
+# Install fonts
+
+cask 'font-source-code-pro'
+cask 'font-hack'
+
 mas "bear", id: 1091189122
 mas "irvue", id: 1039633667
 mas "parcel", id: 639968404

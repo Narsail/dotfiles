@@ -11,8 +11,8 @@ if ! zgen saved; then
   zgen oh-my-zsh
 
   # Set the theme
-  zgen oh-my-zsh themes/mrtazz
-
+  # zgen oh-my-zsh themes/mrtazz
+  zgen oh-my-zsh themes/robbyrussell
   # Autosuggestions
   zgen load zsh-users/zsh-autosuggestions
 
@@ -39,6 +39,8 @@ if ! zgen saved; then
 fi
 
 [ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
+
+source /usr/local/opt/chtf/share/chtf/chtf.sh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"

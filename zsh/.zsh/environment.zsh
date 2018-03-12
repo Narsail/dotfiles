@@ -15,4 +15,4 @@ export LESSCHARSET=utf-8
 export GOPATH=$HOME/projects/go
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$(python3 -m site --user-base)/bin:$PATH"
-export HOMEBREW_CASK_OPTS="--appdir=/Applications --fontdir=/Library/Fonts"
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --fontdir=~/Library/Fonts"

@@ -9,6 +9,9 @@ brew doctor
 echo Installing Homebrew bundler
 brew tap Homebrew/bundle
 
+echo Tapping Homebrew Fonts
+brew tap caskroom/fonts
+
 open -a "App Store"
 
 echo Installing Homebrew bundled dependencies

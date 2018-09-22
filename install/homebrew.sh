@@ -19,6 +19,3 @@ brew bundle --file=$HOME/.dotfiles/Brewfile
 
 echo "Cleaning up homebrew cache..."
 brew cleanup > /dev/null 2>&1
-
-echo "Would you like to set Google Chrome to be your default browser?"
-open -a "Google Chrome" --args --make-default-browser
